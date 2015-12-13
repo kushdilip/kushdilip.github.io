@@ -1,7 +1,7 @@
 baseurl = "http://kushdilip.github.io/blog"
 languageCode = "en-us"
 title = "Welcome"
-theme = "hugo-uno"
+theme = "hugo-redlounge"
 contentdir = "content"
 layoutdir = "layouts"
 publishdir = "public"
