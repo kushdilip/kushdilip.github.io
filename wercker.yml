@@ -3,7 +3,7 @@ build:
   steps:
     - arjen/hugo-build:
         version: "HEAD"
-        theme: hugo-readlounge
+        theme: hugo-uno
         flags: --buildDrafts=true
 deploy:
   steps:
