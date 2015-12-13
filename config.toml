@@ -1,3 +1,16 @@
+baseurl = "http://kushdilip.github.io/blog"
 languageCode = "en-us"
 title = "Welcome"
 theme = "hugo-uno"
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+canonifyurls = false
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[params]
+  description = "kushdilip's blog"
+  author = "dilip"
