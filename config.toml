@@ -6,7 +6,8 @@ contentdir = "content"
 layoutdir = "layouts"
 publishdir = "public"
 canonifyurls = false
-
+disqus = "kushdilipblog"
+disqusShortname = "kushdilipblog"
 [taxonomies]
   category = "categories"
   tag = "tags"
