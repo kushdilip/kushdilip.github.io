@@ -10,7 +10,7 @@ build:
     - arjen/hugo-build:
         version: "HEAD"
         theme: hugo-theme-crisp
-        flags: --buildDrafts=true
+        flags: --buildDrafts=false
 deploy:
   steps:
     - install-packages:
