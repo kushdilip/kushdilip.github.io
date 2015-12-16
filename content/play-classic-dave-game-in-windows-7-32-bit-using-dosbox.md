@@ -1,4 +1,5 @@
 +++
+type = "post"
 date = "2014-01-21T12:00:00+05:30"
 draft = false
 title = "Play Classic Dave game in windows 7 32 bit using DOSBOX"
@@ -25,13 +26,13 @@ Install DOSBox and open it.
 mount c d:\
 c:
 cd dave
-dave 
+dave
 ```
 It looks like this  
 
 <img src="http://i1370.photobucket.com/albums/ag256/kushdilip/dave_cmd_zpse870d3f4.png" alt="dosbox" />
 
-And finally you'll have Dave running ... Enjoy!!! 
+And finally you'll have Dave running ... Enjoy!!!
 
 <img src="http://i1370.photobucket.com/albums/ag256/kushdilip/dave_gameplay_zpsb6472724.png" alt="dave_game_play" />
 

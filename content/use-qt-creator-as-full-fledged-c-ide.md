@@ -1,4 +1,5 @@
 +++
+type = "post"
 date = "2014-01-21T12:00:00+05:30"
 draft = false
 title = "Use Qt Creator as full fledged C++ IDE"
@@ -8,9 +9,9 @@ aliases = [
 ]
 +++
  I was putting efforts to learn C++ for so many months but didn't find any suitable IDE on which I can practice. Then few months ago, one of my friend introduced me to Qt Creator, as one of the best IDE for C++. During the free time in this summer I gave it a try and started learning the language with the help of a ebook on this IDE. And surprisingly, I found Qt Creator to be perfect in so many ways. Every feature I was looking for previously, is  available in it.
- 
+
  Even though, Qt Creator is basically designed for development of Qt applications but It has everything to become a full fledged C++ IDE. I tried it on ubuntu till now. It can be installed directly from software Center. Windows version is also available for download on [website](http://qt-project.org/downloads).
- 
+
 
 ####To properly compile and run C++ projects do as following.
 - Create a new C++ Project by first clicking on `File -> New File` or Project then select `Other Projects -> C++ Project` and follow the instructions.
@@ -26,12 +27,12 @@ aliases = [
 - Now select the Project mode by clicking on the box below debug box in left side pane. Here go to Run Settings and check the Run in terminal.
 - Now go to Tool menu and select `Options->Environment -> General . Here look for Terminal in System. Enter /usr/bin/X11/xterm -e instead of existing text.`
 QtCreator is ready to compile and run your C++ projects. Use Ctrl + B to build and Ctrl + R to run or use buttons given at bottom in left panel for build and run or you can use build menu.
- 
+
 ####To enable C++11 support do as following.
 - Find the your_project_name.pro file in your project hierarchy in Qt Creator. Just add  following line in this .pro file to enable the support
 
 		`QMAKE_CXXFLAGS += -std=c++0x (or -std=gnu++0x)`
-        
+
 </br>
 <figure>
   <img src="http://i1370.photobucket.com/albums/ag256/kushdilip/qtconfig_zps52ede2e2.png" alt="QT Project Config" >

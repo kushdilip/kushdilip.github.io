@@ -1,4 +1,5 @@
 +++
+type = "post"
 date = "2014-02-24T01:14:00+05:30"
 draft = false
 title = "Accessing Guest (VirtualBox) Node.js Application from Windows/Ubuntu Host"
@@ -7,13 +8,13 @@ aliases = [
 	"accessing-guest-virtualbox-node-js-application-from-windowsubuntu-host"
 ]
 +++
-If you are running a Node.js Application inside a Ubuntu VirtualBox machine and want to test the same application in any browser inside your Windows/Ubuntu Host OS, then follow this small tutorial. You can even test the application on any other device in same wifi or lan network as your Host/Guest Machine. 
+If you are running a Node.js Application inside a Ubuntu VirtualBox machine and want to test the same application in any browser inside your Windows/Ubuntu Host OS, then follow this small tutorial. You can even test the application on any other device in same wifi or lan network as your Host/Guest Machine.
 
 ####The main reasons I wanted this kind of hack are:
   - The Guest machine becomes slow and laggy if you start any browser in it to test your applications.
   - Sometime you just want to use terminal.
   - Test the Web Application in mobile or tablet device.
-  
+
 I am explaining here the steps to make it work.
 
 ####Virtual Box Settins
@@ -44,7 +45,7 @@ The only change we have to do here is assingn `0.0.0.0` to IP instead of standar
 ```
 var IP = '0.0.0.0';
 ```
-Put the code in a file named server.js and run node server.js in it’s file path. 
+Put the code in a file named server.js and run node server.js in it’s file path.
 ```
 $ node /path/to/file/server.js
 ```
@@ -52,7 +53,7 @@ $ node /path/to/file/server.js
 <img src="http://i1370.photobucket.com/albums/ag256/kushdilip/serverrunning_zps12417819.png" alt="terminal" >
 
 Now go to terminal and find ip of your virtual machine by typing ifconfig. It will give you some local ip address for `eth0`. I am getting `192.168.2.10`.
-That’s it. Now open any browser in Host machine. Type url with above above IP and assigned PORT in `server.js` like this 
+That’s it. Now open any browser in Host machine. Type url with above above IP and assigned PORT in `server.js` like this
 `http://192.168.2.10:1337`
 For other devices like mobile, tablet or any machine on same network, use same url `http://192.168.2.10:1337`.
 

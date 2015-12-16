@@ -1,4 +1,5 @@
 +++
+type = "post"
 date = "2014-08-31T21:45:36+05:30"
 draft = false
 title = "How to Install Conky in Linux Mint / Ubuntu"
@@ -7,9 +8,9 @@ aliases = [
 	"how-to-install-conky-in-linux-mint-ubuntu"
 ]
 +++
-[Conky](http://conky.sourceforge.net/) is a free, light-weight system monitor for X, that displays various system information on your desktop. Using conky you can add diffrent kind of cool widgets to your Desktop. These widget can be used to monitor various system activities, ram & cpu usage or simply to show Date & Time. 
+[Conky](http://conky.sourceforge.net/) is a free, light-weight system monitor for X, that displays various system information on your desktop. Using conky you can add diffrent kind of cool widgets to your Desktop. These widget can be used to monitor various system activities, ram & cpu usage or simply to show Date & Time.
 
-In this post I will explain how you can install **Conky** in Linux Mint and Ubuntu. 
+In this post I will explain how you can install **Conky** in Linux Mint and Ubuntu.
 
 #### Conky Installation
 -  Install `conky` and `conky-all` using terminal or synaptic. Type below command in terminal
@@ -25,7 +26,7 @@ Instead of `conky-all`, you can install `conky-std`. But it's better to go with 
 ```
 $ conky
 ```
-It's better to add conky to startup appliations. Here is how default conky looks in Mint. 
+It's better to add conky to startup appliations. Here is how default conky looks in Mint.
 
 <img src="http://i1370.photobucket.com/albums/ag256/kushdilip/Screenshotfrom2014-08-31152119_zpsc880a021.png" alt="conky-default" />
 

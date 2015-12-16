@@ -1,4 +1,5 @@
 +++
+type = "post"
 date = "2014-06-13T02:03:00+05:30"
 draft = false
 title = "Javascript MapReduce examples"

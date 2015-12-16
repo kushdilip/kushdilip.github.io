@@ -1,4 +1,5 @@
 +++
+type = "post"
 date = "2014-11-23T15:14:00+05:30"
 draft = false
 title = "Use different versions of Node.js using NVM"
@@ -26,8 +27,8 @@ Install nodejs
 Check the version of nodejs using `node -v`
 
 ####Method 2.
-This method is more smart and gives you more control over node.js versions. 
-**NVM** is Node Version Manager which installs and managers different versions of Node.js on your system. 
+This method is more smart and gives you more control over node.js versions.
+**NVM** is Node Version Manager which installs and managers different versions of Node.js on your system.
 
 For installing nvm you need few dependency packages first. You many already have them or you can just install them using below command.
 
@@ -59,10 +60,5 @@ To gain access to the nvm functionality, you'll need to log out and log back in 
 
 There is one caveat. NVM installs Node.js in your home directory and other users can't access it, so you should always have one of stable version of node.js installed using **Method 1** mentioned above.
 
-Why so much emphasis on using nvm because you might be working on different Node.js projects which may depend on a particular version and break on others. So using NVM saves a lot of effort. 
-For more info visit the [NVM Github Repository](https://github.com/creationix/nvm). For any issue please comment below. 
-
-
-
-
-
+Why so much emphasis on using nvm because you might be working on different Node.js projects which may depend on a particular version and break on others. So using NVM saves a lot of effort.
+For more info visit the [NVM Github Repository](https://github.com/creationix/nvm). For any issue please comment below.

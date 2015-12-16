@@ -1,4 +1,5 @@
 +++
+type = "post"
 date = "2014-01-21T12:00:00+05:30"
 draft = false
 title = "How to use jQuery UI datepicker"
@@ -20,10 +21,10 @@ First you need to include jQuery UI javascript and css in head of your html page
       rel="stylesheet" type="text/css" />  
  <script  
       src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>  
- </head> 
+ </head>
 ```
 
-Then add following html code in body section of your page where you want datepicker. 
+Then add following html code in body section of your page where you want datepicker.
 
 `<input id="datepicker" />`
 

@@ -1,13 +1,14 @@
 baseurl = "http://kushdilip.github.io/blog/"
 languageCode = "en-us"
 title = "Welcome"
-theme = "hugo-theme-crisp"
+theme = "hugo-icarus-theme"
 contentdir = "content"
 layoutdir = "layouts"
 publishdir = "public"
-canonifyurls = false
+canonifyurls = true
 disqus = "kushdilipblog"
 disqusShortname = "kushdilipblog"
+
 [taxonomies]
   category = "categories"
   tag = "tags"
@@ -15,3 +16,4 @@ disqusShortname = "kushdilipblog"
 [params]
   description = "kushdilip's blog"
   author = "dilip"
+  date_format = "2006-01-02"

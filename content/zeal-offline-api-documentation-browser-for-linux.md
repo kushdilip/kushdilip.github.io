@@ -1,4 +1,5 @@
 +++
+type = "post"
 date = "2014-06-15T23:14:00+05:30"
 draft = false
 title = "Zeal : Offline API documentation browser for Linux"
@@ -23,6 +24,5 @@ After installing Zeal it can be started from terminal by typing `zeal`. Add it t
 
 ####Issues faced and Solutions
 
-- I faced a minor issue after installing Zeal. I was not able to see main menu on top of it from where you can I found solution at [zeal issues](https://github.com/jkozera/zeal/issues/134) . I tried removing appmenu-qt5 package which worked from me. 
+- I faced a minor issue after installing Zeal. I was not able to see main menu on top of it from where you can I found solution at [zeal issues](https://github.com/jkozera/zeal/issues/134) . I tried removing appmenu-qt5 package which worked from me.
 - Every time starting Zeal will show a popup that it's Hotkey is confliting with system's. So I changed it's default Hotkey from Alt + Space to Ctrl + Shift + Space ([Synapse](http://kushdilip.com/blog/installing-synapse-launcher-in-ubuntu-14-04/) is already using Ctrl + Space)
-

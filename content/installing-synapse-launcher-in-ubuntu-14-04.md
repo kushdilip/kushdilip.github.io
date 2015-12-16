@@ -1,4 +1,5 @@
 +++
+type = "post"
 date = "2014-06-08T10:50:00+05:30"
 draft = false
 title = "Installing Synapse launcher in Ubuntu 14.04"
@@ -18,6 +19,6 @@ sudo apt-add-repository ppa:synapse-core/testing
 #####2 . Now update the Software Repository and after that install synapse
 ```
 sudo apt-get update
-sudo apt-get install synapse 
-``` 
+sudo apt-get install synapse
+```
 That's it. Now enjoy the awesomeness of Synapse.
