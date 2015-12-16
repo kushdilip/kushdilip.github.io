@@ -5,9 +5,12 @@ categories = []
 date = "2015-12-17T00:24:32+05:30"
 images = []
 menu = ""
-tags = ["software", "gyan", "resources", "links"]
+tags = ["software", "gyaan", "resources", "links"]
 category = ["software development"]
 title = "Technical debt resources"
+aliases = [
+	"technical-debt-resources"
+]
 
 +++
 You might have heard of the term Technical Debt at some point of time in your programming career. It is defined as making short term compromise in designing software systems and writing code to gain which makes it difficult to maintain the code & software in the future.
