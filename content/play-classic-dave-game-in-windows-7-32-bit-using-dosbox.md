@@ -4,6 +4,8 @@ date = "2014-01-21T12:00:00+05:30"
 draft = false
 title = "Play Classic Dave game in windows 7 32 bit using DOSBOX"
 slug = "play-classic-dave-game-in-windows-7-32-bit-using-dosbox"
+tags = ["games", "windows"]
+categories = ["Tools"]
 aliases = [
 	"play-classic-dave-game-in-windows-7-32-bit-using-dosbox"
 ]

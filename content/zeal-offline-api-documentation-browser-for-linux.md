@@ -4,6 +4,8 @@ date = "2014-06-15T23:14:00+05:30"
 draft = false
 title = "Zeal : Offline API documentation browser for Linux"
 slug = "zeal-offline-api-documentation-browser-for-linux"
+tags = ["documentation", "linux"]
+categories = ["Tools"]
 aliases = [
 	"zeal-offline-api-documentation-browser-for-linux"
 ]

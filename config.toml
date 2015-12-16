@@ -1,19 +1,84 @@
 baseurl = "http://kushdilip.github.io/blog/"
 languageCode = "en-us"
 title = "KUSHDILIP"
+
+disqusShortname = "kushdilipblog"
+googleAnalyticss = "UA-47054792-2"
+
+paginate = 10
 theme = "hugo-icarus-theme"
 contentdir = "content"
 layoutdir = "layouts"
 publishdir = "public"
-canonifyurls = true
-disqus = "kushdilipblog"
-disqusShortname = "kushdilipblog"
+# canonifyurls = true
 
-[taxonomies]
-  category = "categories"
-  tag = "tags"
+# [taxonomies]
+#   category = "categories"
+#   tag = "tags"
 
 [params]
-  description = "kushdilip's blog"
-  author = "dilip"
-  date_format = "2006-01-02"
+  author = "Dilip"
+  bio = "Programmer - Blogger - JS"
+  location = "Bangalore, IN"
+  site_description = "kushdilip's blog"
+  copyright  = "Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice)."
+
+  date_format = "02 Jan'06"
+
+
+[[params.menu]]
+    before = true
+    label = "Home"
+    link = "/"
+
+[[params.menu]]
+    before = false
+    label  = "Tags"
+    link   = "tags/"
+
+[[params.menu]]
+    before = false
+    label  = "Categories"
+    link   = "categories/"
+
+[params.profile]
+    follow_button = "https://github.com/kushdilip"
+
+[social]
+# Add your social network accounts to the profile section on the left
+# by entering your username. The links to your account will be
+# create automatically.
+    github          = "kushdilip"
+    bitbucket       = ""
+    jsfiddle        = ""
+    codepen         = ""
+    foursquare      = ""
+    dribbble        = ""
+    deviantart      = ""
+    behance         = ""
+    flickr          = ""
+    instagram       = ""
+    youtube         = ""
+    vimeo           = ""
+    vine            = ""
+    medium          = ""
+    wordpress       = ""
+    tumblr          = ""
+    xing            = ""
+    linkedin        = ""
+    slideshare      = ""
+    stackoverflow   = "kushdilip"
+    reddit          = ""
+    pinterest       = ""
+    googleplus      = ""
+    facebook        = ""
+    facebook_admin  = ""
+    twitter_domain  = ""
+    twitter         = "kushdilip"
+
+# Enable and disable widgets for the right sidebar
+[params.widgets]
+  recent_articles = true
+  categories = true
+  tags = true
+  tag_cloud = true

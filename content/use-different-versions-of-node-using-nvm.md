@@ -4,6 +4,8 @@ date = "2014-11-23T15:14:00+05:30"
 draft = false
 title = "Use different versions of Node.js using NVM"
 slug = "use-different-versions-of-node-using-nvm"
+tags = ["nodejs", "javascript", "nvm"]
+categories = ["Setup"]
 aliases = [
 	"use-different-versions-of-node-using-nvm"
 ]

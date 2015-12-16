@@ -4,6 +4,8 @@ date = "2014-06-13T02:03:00+05:30"
 draft = false
 title = "Javascript MapReduce examples"
 slug = "javascript-mapreduce-examples"
+tags = ["javascript", "code"]
+categories = ["Programming"]
 aliases = [
 	"javascript-mapreduce-examples"
 ]

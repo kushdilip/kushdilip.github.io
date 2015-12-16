@@ -4,6 +4,8 @@ date = "2014-01-21T12:00:00+05:30"
 draft = false
 title = "How to use jQuery UI datepicker"
 slug = "how-to-use-jquery-ui-datepicker"
+tags = ["javascript", "jquery", "how-to"]
+categories = ["Programming"]
 aliases = [
 	"how-to-use-jquery-ui-datepicker"
 ]

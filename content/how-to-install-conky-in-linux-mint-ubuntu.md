@@ -4,6 +4,8 @@ date = "2014-08-31T21:45:36+05:30"
 draft = false
 title = "How to Install Conky in Linux Mint / Ubuntu"
 slug = "how-to-install-conky-in-linux-mint-ubuntu"
+tags = ["linux-mint"]
+categories = ["Tools"]
 aliases = [
 	"how-to-install-conky-in-linux-mint-ubuntu"
 ]

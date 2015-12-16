@@ -5,6 +5,8 @@ draft = false
 title = "Build Hybrid Mobile App with Ionic Framework and Yeoman"
 slug = "build-hybrid-mobile-app-with-ionic-framework-using-yeoman"
 image = "/blog/images/2015/09/headerIonic1.jpg"
+tags = ["mobile", "ionic", "hybrid"]
+categories = ["How to"]
 aliases = [
 	"build-hybrid-mobile-app-with-ionic-framework-using-yeoman"
 ]

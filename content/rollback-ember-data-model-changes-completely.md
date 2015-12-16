@@ -4,6 +4,8 @@ date = "2014-11-05T00:48:54+05:30"
 draft = false
 title = "Rollback Ember-Data Model changes completely"
 slug = "rollback-ember-data-model-changes-completely"
+tags = ["ember", "data", "ember-data"]
+categories = ["Ember"]
 aliases = [
 	"rollback-ember-data-model-changes-completely"
 ]

@@ -4,6 +4,8 @@ date = "2014-01-21T12:00:00+05:30"
 draft = false
 title = "Use Qt Creator as full fledged C++ IDE"
 slug = "use-qt-creator-as-full-fledged-c-ide"
+tags = ["c", "ide"]
+categories = ["Tools"]
 aliases = [
 	"use-qt-creator-as-full-fledged-c-ide"
 ]

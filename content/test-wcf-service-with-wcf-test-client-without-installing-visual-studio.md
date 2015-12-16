@@ -4,6 +4,8 @@ date = "2014-02-20T12:00:00+05:30"
 draft = false
 title = "Test WCF Service with WCF Test Client without installing Visual Studio"
 slug = "test-wcf-service-with-wcf-test-client-without-installing-visual-studio"
+tags = ["c#", ".net", "wcf", "vstudio"]
+categories = ["Tools"]
 aliases = [
 	"test-wcf-service-with-wcf-test-client-without-installing-visual-studio"
 ]

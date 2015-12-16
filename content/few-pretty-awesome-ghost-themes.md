@@ -4,6 +4,8 @@ date = "2014-07-23T00:19:33+05:30"
 draft = false
 title = "Awesome Ghost themes"
 slug = "few-pretty-awesome-ghost-themes"
+tags = ["themes", "ghost-blog"]
+categories = ["ghost-blog"]
 aliases = [
 	"few-pretty-awesome-ghost-themes"
 ]

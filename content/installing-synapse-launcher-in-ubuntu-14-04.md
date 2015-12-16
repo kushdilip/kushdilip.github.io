@@ -4,6 +4,8 @@ date = "2014-06-08T10:50:00+05:30"
 draft = false
 title = "Installing Synapse launcher in Ubuntu 14.04"
 slug = "installing-synapse-launcher-in-ubuntu-14-04"
+tags = ["ubuntu", "tools"]
+categories = ["Tools"]
 aliases = [
 	"installing-synapse-launcher-in-ubuntu-14-04"
 ]

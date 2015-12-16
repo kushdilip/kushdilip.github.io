@@ -4,6 +4,8 @@ date = "2014-02-24T01:14:00+05:30"
 draft = false
 title = "Accessing Guest (VirtualBox) Node.js Application from Windows/Ubuntu Host"
 slug = "accessing-guest-virtualbox-node-js-application-from-windowsubuntu-host"
+tags = ["virtualbox", "windows", "ubuntu"]
+categories = ["How to"]
 aliases = [
 	"accessing-guest-virtualbox-node-js-application-from-windowsubuntu-host"
 ]
