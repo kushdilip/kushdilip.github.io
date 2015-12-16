@@ -7,7 +7,7 @@ images = []
 menu = ""
 tags = ["software", "gyan", "resources", "links"]
 category = ["software development"]
-title = "technical debt resources"
+title = "Technical debt resources"
 
 +++
 You might have heard of the term Technical Debt at some point of time in your programming career. It is defined as making short term compromise in designing software systems and writing code to gain which makes it difficult to maintain the code & software in the future.
@@ -34,4 +34,4 @@ Here I am sharing all the links and articles I went through or I will go through
 
 
 
-It looks quite scary after after reading all the above articles but if there is a problem then there is always a soution. So avoiding short term compromizes can free the people working on any product from huge technical debts.
+It looks quite scary after reading all the above articles but if there is a problem then there is always a solution. So avoiding short term compromizes and following better design patterns can free the people working on any product from huge technical debts.
