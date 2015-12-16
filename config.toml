@@ -41,6 +41,11 @@ publishdir = "public"
     label  = "Categories"
     link   = "categories/"
 
+[[params.menu]]
+    before = false
+    label  = "About"
+    link   = "about/"
+
 [params.profile]
     follow_button = "https://github.com/kushdilip"
 

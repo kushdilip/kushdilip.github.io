@@ -3,4 +3,4 @@
 	url = https://github.com/kushdilip/hugo-theme-crisp.git
 [submodule "themes/hugo-icarus-theme"]
 	path = themes/hugo-icarus-theme
-	url = git@github.com:kushdilip/hugo-icarus-theme.git
+	url = https://github.com/kushdilip/hugo-icarus-theme.git

@@ -9,7 +9,7 @@ build:
               git submodule update --init --recursive
     - arjen/hugo-build:
         version: "HEAD"
-        theme: hugo-theme-crisp
+        theme: hugo-icarus-theme
         flags: --buildDrafts=false
 deploy:
   steps:
