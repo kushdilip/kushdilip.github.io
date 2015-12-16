@@ -1,6 +1,6 @@
 baseurl = "http://kushdilip.github.io/blog/"
 languageCode = "en-us"
-title = "Welcome"
+title = "KUSHDILIP"
 theme = "hugo-icarus-theme"
 contentdir = "content"
 layoutdir = "layouts"
