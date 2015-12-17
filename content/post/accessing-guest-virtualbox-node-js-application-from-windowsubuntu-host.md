@@ -12,7 +12,7 @@ aliases = [
 +++
 If you are running a Node.js Application inside a Ubuntu VirtualBox machine and want to test the same application in any browser inside your Windows/Ubuntu Host OS, then follow this small tutorial. You can even test the application on any other device in same wifi or lan network as your Host/Guest Machine.
 
-####The main reasons I wanted this kind of hack are:
+####The primary reasons I wanted this kind of hack were:
   - The Guest machine becomes slow and laggy if you start any browser in it to test your applications.
   - Sometime you just want to use terminal.
   - Test the Web Application in mobile or tablet device.
