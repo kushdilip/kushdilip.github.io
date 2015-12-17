@@ -6,6 +6,8 @@ disqusShortname = "kushdilipblog"
 googleAnalyticss = "UA-47054792-2"
 
 paginate = 10
+PaginatePath = 'blog/page'
+
 theme = "hugo-icarus-theme"
 contentdir = "content"
 layoutdir = "layouts"
@@ -40,6 +42,13 @@ publishdir = "public"
     before = false
     label  = "Categories"
     link   = "categories/"
+
+
+[[params.menu]]
+    before = false
+    label  = "Posts"
+    link   = "posts/"
+
 
 [[params.menu]]
     before = false
