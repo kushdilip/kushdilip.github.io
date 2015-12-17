@@ -1,0 +1,13 @@
+{
+  "name": "kushdilip.github.io",
+  "version": "1.0.0",
+  "description": "dilip's adventures",
+  "scripts": {},
+  "author": "kushdilip (http://kushdilip.com/)",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "0.23.0",
+    "style-loader": "0.13.0",
+    "webpack": "1.12.9"
+  }
+}

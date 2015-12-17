@@ -1,0 +1,23 @@
+{
+  "name": "kushdilip.github.io",
+  "description": "dilip's adventures",
+  "main": "",
+  "authors": [
+    "kushdilip (http://kushdilip.com/)"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/kushdilip/kushdilip.github.io",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-css": "normalize.css#~3.0.3",
+    "pure": "~0.6.0"
+  }
+}
