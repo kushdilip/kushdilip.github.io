@@ -1,0 +1,129 @@
+
+html {
+    color: #444
+}
+
+html,.pure-g [class*="pure-u"],.pure-g-r [class*="pure-u"] {
+    font: 18px/1.4 'Avenir Next',Avenir,'Open Sans',sans-serif
+}
+
+body {
+    padding: 2em 2em;
+    margin: 0 auto
+}
+
+/*Font Awesome Icons css*/
+@font-face {
+  font-family: 'FontAwesome';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/fontawesome-webfont.eot); /* For IE6-8 */
+  src: url(../fonts/fontawesome-webfont.woff2) format('woff2'),
+       url(../fonts/fontawesome-webfont.woff) format('woff'),
+       url(../fonts/fontawesome-webfont.ttf) format('truetype');
+}
+
+a {
+    color: #389aae;
+    text-decoration: none
+}
+
+h1:first-child {
+    margin-top: 0
+}
+
+.content {
+    max-width: 40em
+}
+
+.home {
+    margin: 0 auto;
+    max-width: 1024px;
+    margin-top: 20px;
+}
+
+.home .content {
+    max-width: none
+}
+
+.pure-g>*,.pure-g-r>* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.logo {
+    padding: 0 2.5em 2em;
+    text-align: center
+}
+
+.logo img {
+    border: 5px solid #dfdfdf;
+    border-radius: 27%;
+    max-width: 220px;
+    padding: 2px;
+    width: 100%;
+    -moz-box-shadow: 0 0 5px #fff;
+    -webkit-box-shadow: 0 0 5px #fff;
+    box-shadow: 0 0 5px #fff
+}
+
+.home .logo img {
+    max-width: 300px
+}
+
+html {
+    color: #444
+}
+
+html,.pure-g [class*="pure-u"],.pure-g-r [class*="pure-u"] {
+    font: 18px/1.4 'Avenir Next',Avenir,'Open Sans',sans-serif
+}
+
+body {
+    padding: 2em 2em;
+    margin: 0 auto
+}
+
+h1:first-child {
+    margin-top: 0
+}
+
+.content {
+    max-width: 40em
+}
+
+.home {
+    margin: 0 auto;
+    max-width: 1024px
+}
+
+.home .content {
+    max-width: none
+}
+
+.pure-g>*,.pure-g-r>* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.logo {
+    padding: 0 2.5em 2em;
+    text-align: center
+}
+
+.logo img {
+    border: 5px solid #dfdfdf;
+    border-radius: 27%;
+    max-width: 220px;
+    padding: 2px;
+    width: 100%;
+    -moz-box-shadow: 0 0 5px #fff;
+    -webkit-box-shadow: 0 0 5px #fff;
+    box-shadow: 0 0 5px #fff
+}
+
+.home .logo img {
+    max-width: 300px
+}
