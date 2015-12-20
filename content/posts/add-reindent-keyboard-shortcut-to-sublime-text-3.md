@@ -11,6 +11,7 @@ aliases = [
 ]
 +++
 I like my code to be always properly formatted, which makes it easier to read and understand. I use Sublime-text for coding and it has Reindent feature which can be found at `Edit>>Line>>Reindent` ,but everybody wants a keyboard shortcut.
+<!--more-->
 
 Here is how you can add this shortcut in sublime
 

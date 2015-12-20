@@ -11,8 +11,9 @@ aliases = [
 ]
 +++
 Recently, I was using map and reduce functions in javascript for my project. These are very userful. You can use them for different kind of array manipulations. Here I am listing out various use cases with code snippets.
+<!--more-->
 
-####1.  Finding unique elements in an Array
+#### 1.  Finding unique elements in an Array
 
 <pre><code class="javascript">
 var cities = ["bombay", "delhi", "bombay", "delhi", "delhi", "chennai"];
@@ -25,7 +26,7 @@ console.log(uniqueCities); // ["bombay", "delhi", "chennai"]
 
 </code></pre>
 
-####2. Sum up array of numbers
+#### 2. Sum up array of numbers
 
 
 ```

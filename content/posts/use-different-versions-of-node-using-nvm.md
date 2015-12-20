@@ -12,6 +12,7 @@ aliases = [
 +++
 There are two popular methods of installing Node.js on linux machines. First, using repository and other using NVM. There is third method also, using Software manager but since there is some other package named `node` which messes up with nodejs, so kindly avoid that.
 
+<!--more-->
 
 
 #### Method 1.

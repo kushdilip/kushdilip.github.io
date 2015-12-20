@@ -11,6 +11,7 @@ aliases = [
 ]
 +++
 Remember the Classic Dave game you might have played more than 10 years ago. That was the first game I played on PC. I liked it a lot. But it's not possible to play Dave directly on Windows 7 32 bit.
+<!--more-->
 
 <img src="http://i1370.photobucket.com/albums/ag256/kushdilip/dangerousdave_zpsa0525748.jpg" alt="dangerous_dave" />
 

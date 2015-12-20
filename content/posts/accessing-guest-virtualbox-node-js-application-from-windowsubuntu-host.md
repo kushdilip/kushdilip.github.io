@@ -11,15 +11,16 @@ aliases = [
 ]
 +++
 If you are running a Node.js Application inside a Ubuntu VirtualBox machine and want to test the same application in any browser inside your Windows/Ubuntu Host OS, then follow this small tutorial. You can even test the application on any other device in same wifi or lan network as your Host/Guest Machine.
+<!--more-->
 
-####The primary reasons I wanted this kind of hack were:
+#### The primary reasons I wanted this kind of hack were:
   - The Guest machine becomes slow and laggy if you start any browser in it to test your applications.
   - Sometime you just want to use terminal.
   - Test the Web Application in mobile or tablet device.
 
 I am explaining here the steps to make it work.
 
-####Virtual Box Settins
+#### Virtual Box Settins
 - Make sure the guest OS for which you are setting up is not running.
 - Now Open Virtual Box Manager and Select the machine.
 - Go to Settings -> Network -> Adapter 1(first tab). Network Adapter should be enabled here.
@@ -29,7 +30,7 @@ I am explaining here the steps to make it work.
 
 <img src="http://i1370.photobucket.com/albums/ag256/kushdilip/virtualBox_zpsb165a320.png" alt="VirtualBox Setting" >
 
-####Changes in Node.js Server
+#### Changes in Node.js Server
 I assume you are already familiar with Node.js. Below is the simple code that I have taken from [nodejs.org](nodejs.org),
 
 ```

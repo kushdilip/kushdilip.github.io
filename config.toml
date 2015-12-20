@@ -12,7 +12,7 @@ theme = "hugo-icarus-theme"
 contentdir = "content"
 layoutdir = "layouts"
 publishdir = "public"
-# canonifyurls = true
+canonifyurls = true
 
 # [taxonomies]
 #   category = "categories"
@@ -33,10 +33,10 @@ publishdir = "public"
     label = "Home"
     link = "/"
 
-[[params.menu]]
-    before = false
-    label  = "Tags"
-    link   = "tags/"
+# [[params.menu]]
+#     before = false
+#     label  = "Tags"
+#     link   = "tags/"
 
 [[params.menu]]
     before = false
@@ -46,9 +46,13 @@ publishdir = "public"
 
 [[params.menu]]
     before = false
-    label  = "Posts"
+    label  = "Archive"
     link   = "posts/"
 
+[[params.menu]]
+    before = false
+    label  = "Quotes"
+    link   = "quotes/"
 
 [[params.menu]]
     before = false
@@ -56,7 +60,7 @@ publishdir = "public"
     link   = "about/"
 
 [params.profile]
-    follow_button = "https://github.com/kushdilip"
+    follow_button = "https://twitter.com/kushdilip"
 
 [social]
 # Add your social network accounts to the profile section on the left
@@ -79,7 +83,7 @@ publishdir = "public"
     wordpress       = ""
     tumblr          = ""
     xing            = ""
-    linkedin        = ""
+    linkedin        = "dilipkushwaha"
     slideshare      = ""
     stackoverflow   = "kushdilip"
     reddit          = ""

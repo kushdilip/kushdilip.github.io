@@ -11,8 +11,9 @@ aliases = [
 ]
 +++
 I was developing a simple java web application where I needed a datepicker. So here is how I used the jQuery UI datepicker in my application.
+<!--more-->
 
-First you need to include jQuery UI javascript and css in head of your html page.
+- First you need to include jQuery UI javascript and css in head of your html page.
 
 ```
 <head>  
@@ -26,7 +27,7 @@ First you need to include jQuery UI javascript and css in head of your html page
  </head>
 ```
 
-Then add following html code in body section of your page where you want datepicker.
+- Then add following html code in body section of your page where you want datepicker.
 
 `<input id="datepicker" />`
 
@@ -51,8 +52,9 @@ Then add following html code in body section of your page where you want datepic
  </script>  
 ```
 
-Above javaScript code runs as soon as the full html page is ready. The various options are for different variation available with the datepicker ui. You can remove and add any option as per the requirements.
+- Above javaScript code runs as soon as the full html page is ready. The various options are for different variation available with the datepicker ui. You can remove and add any option as per the requirements.
 
+---
 Suppose you don't want the animation while calendar loads, then remove the last option 'showAnim : "slide".
 
 You can find different variations at [jQuery UI datepicker](http://jqueryui.com/datepicker/).

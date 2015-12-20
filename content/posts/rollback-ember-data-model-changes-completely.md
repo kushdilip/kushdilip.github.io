@@ -14,6 +14,7 @@ Ember-Data models have a property called `isDirty`. Whenever you make some chang
 Generally our models have various `belongsTo` and `hasMany` relationships. So if some child of model gets dirty, then doing `model.rollback()` doesn't rollbacks changes on child ember objects.
 
 Here I'm going to explain how to handle similar situation.
+<!--more-->
 
 Suppose you have Ember-Data Models called `House` and `Address`
 

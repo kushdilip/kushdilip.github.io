@@ -13,6 +13,7 @@ aliases = [
 [Conky](http://conky.sourceforge.net/) is a free, light-weight system monitor for X, that displays various system information on your desktop. Using conky you can add diffrent kind of cool widgets to your Desktop. These widget can be used to monitor various system activities, ram & cpu usage or simply to show Date & Time.
 
 In this post I will explain how you can install **Conky** in Linux Mint and Ubuntu.
+<!--more-->
 
 #### Conky Installation
 -  Install `conky` and `conky-all` using terminal or synaptic. Type below command in terminal

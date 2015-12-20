@@ -11,6 +11,9 @@ aliases = [
 ]
 +++
 There are various tools to test WCF services. Visual studio installation comes with default tool called WCF Test Client, which can be run from Visual Studio Command Prompt by typing wcftestclient.
+
+<!--more-->
+
 Alternatively for **VS 2010** you can navigate to `C:\Program Files\Microsoft Visual Studio 10.0\Common7\IDE\ ` where you can find and open `WcfTestClient.exe`
 
 <img src="http://i1370.photobucket.com/albums/ag256/kushdilip/wcftestclient_zps51e80bc6.png" alt="wcftest_screenshot" />

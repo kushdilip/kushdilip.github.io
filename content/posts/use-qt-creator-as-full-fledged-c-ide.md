@@ -11,6 +11,7 @@ aliases = [
 ]
 +++
  I was putting efforts to learn C++ for so many months but didn't find any suitable IDE on which I can practice. Then few months ago, one of my friend introduced me to Qt Creator, as one of the best IDE for C++. During the free time in this summer I gave it a try and started learning the language with the help of a ebook on this IDE. And surprisingly, I found Qt Creator to be perfect in so many ways. Every feature I was looking for previously, is  available in it.
+ <!--more-->
 
  Even though, Qt Creator is basically designed for development of Qt applications but It has everything to become a full fledged C++ IDE. I tried it on ubuntu till now. It can be installed directly from software Center. Windows version is also available for download on [website](http://qt-project.org/downloads).
 

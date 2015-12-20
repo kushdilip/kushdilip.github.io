@@ -14,6 +14,7 @@ aliases = [
 The hybrid app technolgoies have revolutioned the development of cross platform mobile applications.
 There are various free and licenced platform in market for building beautiful cross platform apps e.g. [Phonegap](http://phonegap.com/), [Titanium](http://www.appcelerator.com/titanium/), [Sencha Touch](http://www.sencha.com/products/touch) and [CrossWalk](https://crosswalk-project.org/).
 Most popular one is **Phonegap**. It uses Webkit rendering engine.While **Crosswalk** is similar but developed by Intel and supports latest Blink rendering engine used in latest chrome browsers.
+<!--more-->
 
 There is a new Platform in market called [Ionic Framework](http://ionicframework.com/). It is free and Open source. Ionic offers a library of mobile-optimized HTML, CSS and JS components for building highly interactive apps. There is a vibrant community behind Ionic. It utilizes [AngularJS](http://angularjs.org/), which is one of the most popular frontend javascript framework. Though it internally used phonegap to build and package the apps for Android and iOS platforms
 
