@@ -10,8 +10,8 @@ title = "Quotes"
 aliases = ["quotes"]
 +++
 
-We frequently come across brilliant quotes in books or on internet. These quotes inspires us for that moment and we start thinking that this can change our whole life. But after sometime(few hours) we totally forget about it.
-So here I am putting up a compiled list of quotes which inspires me to bring the change in living my own life.
+We frequently come across brilliant quotes in books or on internet. These quotes inspires us for that moment and we start thinking that this can change our whole life. But after sometime we totally forget about it.
+So here I am putting up a compiled list of quotes which inspire me to bring the change in myself.
 
 <!--more-->
 ---
