@@ -16,9 +16,9 @@ gulp.task('css', function  () {
         ])
     .pipe(minifyCSS())
     .pipe(concat('main.css'))
-    .pipe(gulp.dest('dist/css'))
-})
+    .pipe(gulp.dest('dist/css'));
+});
 
 gulp.task('font', function() {
-  gulp.src('vendor/font-awesome/fonts/**/*').pipe(gulp.dest('dist/fonts'))
-})
+  gulp.src('vendor/font-awesome/fonts/**/*').pipe(gulp.dest('dist/fonts'));
+});
