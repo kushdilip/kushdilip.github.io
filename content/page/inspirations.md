@@ -11,8 +11,29 @@ title = "inspirations"
 
 <!--more-->
 
-### Tech
+## Tech 
+
+#### All things Web
+Addy Osmani - https://addyosmani.com/
+
+#### Author of CSS Secrets
+Lea Verou  http://lea.verou.me/
+
+#### Tech & Life
+DOMENICA http://blog.disegnasacchetta.net/
+
+#### Nodejs GOD
+https://github.com/sindresorhus
+
+#### Tech & General
+- Divya Manian http://nimbupani.com/
+
 
 
 ### General
 http://chadfowler.com
+
+
+
+---
+List is not complete yet ..
