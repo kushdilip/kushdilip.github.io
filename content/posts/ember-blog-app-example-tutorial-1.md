@@ -225,11 +225,14 @@ Now the model hook of post route will hit first, no matter how you reach that pa
 In this part we learn about very basics of Ember router, routes, controllers and 
 some interesting things which people come across after months of using Ember.js
 
-Here are the screenshots.
+---
+Screenshots from app I am running locally
 
-Screenshot 1
+[Screenshot 1](/images/post-images/ember-blog-posts.jpg)
 
-Screenshot 2. 
+[Screenshot 1](/images/post-images/ember-blog-posts-2.jpg)
+
+
 
 
 As we go through this tutorial I will keep pushing code on this repo. 
