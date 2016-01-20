@@ -25,7 +25,7 @@ We will be using [ember-cli](http://ember-cli.com/) a lot here which is a comman
 ---
 Let's begin..
 
-##### Required packages.
+#### Required packages.
 First Ensure that below tools and packages are available on your system
 
 1. [Node.js](https://nodejs.org/en/download/) (>= 0.12) & NPM
@@ -34,11 +34,11 @@ First Ensure that below tools and packages are available on your system
 
 Follow http://www.ember-cli.com/#getting-started to install other dependencies.
 
-##### 1. First step: Create app
+### 1. First step: Create app
 
 Move to a directory where you want to create ember app and run below command.
 
-```ember new ember-blog-example```
+`ember new ember-blog-example`
 
 This commoand will scaffold the whole app with all necessary files and folders for you.
 
@@ -50,7 +50,7 @@ Now cd into directory `ember-blog-example` and type **`ember server`**, which wi
 
 Open your broswer on and hit `localhost:4200` to see live app. It has some welcome content.
 
-##### 2. Setting up Router & Routes
+### 2. Setting up Router & Routes
 Ember app related all the files are present in `app` directory. Everything else is just to make your life easier as a developer.
 At the root of `app` directory you will find a file called `router.js`. It extends `Ember.Router` and without even writing a single line of code, it provides you two routes. 
 First `application` aka `root` aka `/`. And one child route of root called `index`. These are automatically created for you during build process and put in final builds files.
@@ -95,7 +95,7 @@ So if you want to see all the posts, navigate to **`localhost:4200/posts`**.
 For a post with id 1, navigate to **`localhost:4200/posts/1`**. See, so simple. We'll get data soon(there is no data right now).
 
 
-#### 3. Show some data
+### 3. Show some data
 We don't have any APIs right now so we will hardcode some data in the model hook of `routes/posts.js`(automatically created after by commands run in previous step).
 
 **Route** is a class to define the individual resource/routes. There are many hooks predefined in Route class, out of which `model` hooks is most important one which you need to override to get some data for our app.
@@ -137,7 +137,7 @@ The data is automatically set by route to `model` property of, but we are using 
 
 Now open **`localhost:4200/posts`** to see the list of posts.
 
-##### 4. Auto redirect to `posts` route
+### 4. Auto redirect to `posts` route
 First create a file `index.js` in `app/routes` directory. Then modify `app/routes/index.js` file to automatically redirect the browser from `/` to `/posts`.
 
 **`app/routes/index.js`**
@@ -150,7 +150,7 @@ export default Ember.Route.extend({
 });
 ```
 
-#### 5. Transition to post route
+### 5. Transition to post route
 
 Let's modify `posts.hbs` now. Instead of just showing the post title we will use `link-to` helper provided by ember. It will create links for individual post page.
 
@@ -162,7 +162,7 @@ the first paramter to `link-to` is full path to the route from `router.js`.
 
 Now if you click on any link, the url will change to **`localhost:4200/posts/{{whatever_id}}`**
 
-#### 6. Show post data
+### 6. Show post data
 
 Modify `app/routes/posts/post.hbs` to 
 ```html
@@ -171,7 +171,7 @@ Modify `app/routes/posts/post.hbs` to
 ```
 
 
-#### 7. Fixing the refresh
+### 7. Fixing the refresh
  If you go to **`localhost:4200`** , it redirects to `/posts`. You get a list of post titles with link to dynamic route. Clicking on these links shows you contents of each post. We are passing the whole post object in these `link-to`.
 Clicking on any post works fine. But if you're already on some post and try to do page refresh. See! the data is lost. What do we do now?
 There is a solution for that as well. We will get our data from posts route directly.
@@ -250,7 +250,7 @@ In this part we learn about very basics of Ember router, routes, controllers and
 some interesting things which people come across after months of using Ember.js
 
 
-##### Source code
+#### Source code
 As we go through this tutorial I will keep pushing code on this [repo](https://github.com/kushdilip/ember-blog-example).
 
 I will also create version tags after each part of this series.
