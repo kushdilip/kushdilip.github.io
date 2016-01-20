@@ -27,7 +27,8 @@ Let's begin..
 
 ##### Required packages.
 First Ensure that below tools and packages are available on your system
-1. [Node.js](https://nodejs.org/en/download/) (>= 0.12) & NPM 
+
+1. [Node.js](https://nodejs.org/en/download/) (>= 0.12) & NPM
 2. [Bower](http://bower.io/#install-bower) : install using `npm install -g bower`
 3. [ember-cli](http://ember-cli.com/) - install using `npm install -g ember-cli`
 
@@ -40,11 +41,12 @@ Move to a directory where you want to create ember app and run below command.
 ```ember new ember-blog-example```
 
 This commoand will scaffold the whole app with all necessary files and folders for you.
-[Ember app directory](/images/post-images/ember-app-directory.png)
+
+<img src="/images/post-images/ember-app-directory.png" alt="Ember app directory"/>
 
 Now cd into directory `ember-blog-example` and type **`ember server`**, which will take few seconds to build and start the server. Server is provided by ember-cli for you.
 
-[Ember server](/images/post-images/ember-server.png)
+<img src="/images/post-images/ember-server.png" alt="Ember server"/>
 
 Open your broswer on and hit `localhost:4200` to see live app. It has some welcome content.
 
@@ -56,7 +58,7 @@ I will recommend installing a chrome plugin called [Ember Inspector](https://chr
 
 We need to create route endpoints for all the different pages you want in your app. Here we need two main routes.
 
-- 
+
 
 1. **posts**  - here you can see the list of post in your blog app.
   To generate `posts` route, run **`ember generate resource posts`** in terminal. 
@@ -238,9 +240,9 @@ Now the model hook of post route will hit first, no matter how you reach this pa
 
 Screenshots from the app I am running locally
 
-[Screenshot 1](/images/post-images/ember-blog-posts.png)
+<img src="/images/post-images/ember-blog-posts.png" alt="Screenshot 1" />
 
-[Screenshot 1](/images/post-images/ember-blog-posts-2.png)
+<img src="/images/post-images/ember-blog-posts-2.png" alt="Screenshot 2" />
 
 
 ---
