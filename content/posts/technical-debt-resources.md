@@ -1,5 +1,5 @@
 +++
-banner = "css/images/post-images/technical-debt.jpg"
+banner = "images/post-images/technical-debt.jpg"
 type = "post"
 categories = []
 date = "2015-12-17T00:24:32+05:30"
