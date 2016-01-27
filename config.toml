@@ -47,7 +47,7 @@ canonifyurls = true
 [[params.menu]]
     before = false
     label  = "Archive"
-    link   = "posts/"
+    link   = "post/"
 
 [[params.menu]]
     before = false
@@ -85,7 +85,7 @@ canonifyurls = true
     xing            = ""
     linkedin        = "dilipkushwaha"
     slideshare      = ""
-    stackoverflow   = "kushdilip"
+    stackoverflow   = "877492"
     reddit          = ""
     pinterest       = ""
     googleplus      = ""
