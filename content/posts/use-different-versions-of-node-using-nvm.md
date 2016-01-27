@@ -16,40 +16,41 @@ There are two popular methods of installing Node.js on linux machines. First, us
 
 
 #### Method 1.
-For the first method use below command on your terminal to install latest version of Node.js on your system
+For the first method use below command on your terminal to install latest version of Node.js on your ubuntu system
 
-Add cris-lea node ppa repository
+- Add cris-lea node ppa repository
 `sudo add-apt-repository ppa:chris-lea/node.js`
 
-Update your pacakge manager
+- Update your pacakge manager
 `sudo apt-get update`
 
-Install nodejs
+- Install nodejs
 `sudo apt-get install nodejs`
 
-Check the version of nodejs using `node -v`
+- Check the version of nodejs using `node -v`
 
-####Method 2.
-This method is more smart and gives you more control over node.js versions.
-**NVM** is Node Version Manager which installs and managers different versions of Node.js on your system.
+#### Method 2.
+This is a smarter method and gives you more control over **Node.js** versions.
+[NVM](https://github.com/creationix/nvm) is Node Version Manager which installs and manages different versions of Node.js on your system.
 
-For installing nvm you need few dependency packages first. You many already have them or you can just install them using below command.
+- For installing nvm, you need few dependency packages first. You many already have them, if not then you can install them using below command.
 
 `sudo apt-get install build-essential libssl-dev curl`
 
-Pull down the nvm installation script from the [nvm's GitHub page](https://github.com/creationix/nvm). The version number may be different, but in general, you can download and install it with the following syntax:
+- Download the nvm installation script from nvm [GitHub page](https://github.com/creationix/nvm). The version number may be different, but normally, you can download and install it using following command:
 
 `curl https://raw.githubusercontent.com/creationix/nvm/v0.7.0/install.sh | sh`
 
-Above command might fail if you're not a root user. For linux mint the script was trying to install in `/etc/mdm/`. You'll need to change the owner of `/etc/mdm/` directory. use below command of similar situations. Assuming your current user is `xyzuser`.
+- Above command might fail if you're not a root user. For linux mint the script tries to install in directory `/etc/mdm/`. So, You need to change the owner of `/etc/mdm/` directory if you are using Linux Mint. Use below command for this situations. Assuming you are logged in as  `xyzuser`.
 
 `sudo chown -R xyzuser /etc/mdm`
 
-To gain access to the nvm functionality, you'll need to log out and log back in again, or you can source the ~/.profile file so that your current session knows about the changes:
+- To gain access to the nvm features, you'll need to log out and log in back, or you can source the ~/.profile file so that your current session knows about the changes:
 
 `source ~/.profile`
 
-#####Few useful NVM commands
+---
+#### Few useful NVM commands
 - Find out available Node.js versions.<br/>
 `nvm ls-remote`
 - Install a particular version of Node.js<br/>
@@ -63,5 +64,7 @@ To gain access to the nvm functionality, you'll need to log out and log back in 
 
 There is one caveat. NVM installs Node.js in your home directory and other users can't access it, so you should always have one of stable version of node.js installed using **Method 1** mentioned above.
 
-Why so much emphasis on using nvm because you might be working on different Node.js projects which may depend on a particular version and break on others. So using NVM saves a lot of effort.
+Why so much emphasis on using nvm, because you might be working on different Node.js projects which may work on a particular version and break on others. So using NVM saves a lot of effort.
+
+---
 For more info visit the [NVM Github Repository](https://github.com/creationix/nvm). For any issue please comment below.

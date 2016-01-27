@@ -1,6 +1,6 @@
 baseurl = "http://kushdilip.github.io/blog/"
 languageCode = "en-us"
-title = "KUSHDILIP"
+title = "Dilip Kushwaha"
 
 disqusShortname = "kushdilipblog"
 googleAnalyticss = "UA-47054792-2"
@@ -20,9 +20,9 @@ canonifyurls = true
 
 [params]
   author = "Dilip"
-  bio = "Programmer - Blogger - JS"
+  bio = "Programmer - Blogger - JavaScript"
   location = "Bangalore, IN"
-  site_description = "kushdilip's blog"
+  site_description = "Javascript & Web blog by dilip kushwaha"
   copyright  = "Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice)."
 
   date_format = "02 Jan'06"

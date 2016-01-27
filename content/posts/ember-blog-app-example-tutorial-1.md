@@ -1,20 +1,21 @@
 +++
 type="post"
 draft=false
-banner = ""
-categories = []
 date = "2016-01-20T09:48:44+05:30"
 images = []
 menu = ""
-tags = []
+tags = ["ember", "ember-cli", "how-to"]
+categories = ["Ember"]
 title = "Create Ember Blog App: Part 1"
 
 +++
 
 I have been using [Ember.js](http://emberjs.com/) for approximately 18 months now. A lot has changed since I started learning it. Now things rarely break. There are plenty of [addons](http://emberobserver.com/) for whatever exciting stuff you want to do. 
-There are articles, tutorials, podcasts, conference videos and local ember meetups everywhere. Small startups to big companies are using Ember to builds awesome apps. You will get Ember related content everywhere. I am not here to convince you why Ember is so awesome.
-I am assuming that you are already convinced that Ember is cool and you'd like to give it a try. So my goal with this series is just to get you started smoothly with Ember. Along with tutorials We will learn some interesting tricks as well.
+There are articles, tutorials, podcasts, conference videos and local ember meetups everywhere. Small startups to big companies are using Ember to builds awesome apps. 
+
 <!--more-->
+You will get Ember related content everywhere. I am not here to convince you why Ember is so awesome.
+I am assuming that you are already convinced that Ember is cool and you'd like to give it a try. So my goal with this series is just to get you started smoothly with Ember. Along with tutorials We will learn some interesting tricks as well.
 
 
 In this series of posts, we will learn how to create a Ember.js based blog application with the help of [ember-cli](http://ember-cli.com/). This app is also a playground for me to test cool new stuff coming with latest versions of Ember.js, [Ember-Data](https://github.com/emberjs/data) & Ember-cli.
@@ -240,7 +241,7 @@ Now the model hook of post route will hit first, no matter how you reach this pa
 
 Screenshots from the app I am running locally
 
-<img src="/images/post-images/ember-blog-posts.png" alt="Screenshot 1" />
+<img src="/images/post-images/ember-blog-posts.png" alt="Screenshot 1"/>
 
 <img src="/images/post-images/ember-blog-posts-2.png" alt="Screenshot 2" />
 

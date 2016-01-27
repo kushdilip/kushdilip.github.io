@@ -18,20 +18,22 @@ Here I'm going to explain how to handle similar situation.
 
 Suppose you have Ember-Data Models called `House` and `Address`
 
-```
+`app/models/house.js`
+```js
 var House = DS.Model.extend({
 	id: DS.attr("string"),
-    member_count: DS.attr("number"),
-    address: DS.belongsTo("Address")
+	member_count: DS.attr("number"),
+	address: DS.belongsTo("Address")
 })
-
+```
+`app/models/address.js`
+```js
 var Address = DS.Model.extend({
 	house_no: DS.attr("number")
-    Street: DS.attr("string")
-    city: DS.attr("string")
-    state: DS.attr("string")
+	Street: DS.attr("string")
+	city: DS.attr("string")
+	state: DS.attr("string")
 })
-
 ```
 
 Let's assume I fetched `house` object from server. In my client application if change `member_count` to some value say 5.
@@ -40,7 +42,7 @@ Now `house.get("isDirty")` will be true and upon executing `house.rollback()` wi
 
 You can use below code to rollback the entire house as well as it's childs.
 
-```
+```js
 var deepRollback = function(model) {
     var that;
     that = this;
@@ -54,6 +56,6 @@ var deepRollback = function(model) {
     });
   }
 
-````
+```
 
 now executing `deepRollback(house)` will rollback house and all it's `belongsTo` objects.

@@ -25,7 +25,7 @@ There are a lot of Resources on Ionic Website. Here I am going to explain how to
 <br>
 ***So Let's Start***
 
-####1. Install and Setup `Node.js` and `npm`.
+#### 1. Install and Setup `Node.js` and `npm`.
 Even though there are thousands of tutorials available for Installing Node.js, I'll explain here easiest method for Ubuntu 14.04 and Mint 17.
 If you have Node installed already then skip to next step.
 
@@ -39,9 +39,10 @@ If you have Node installed already then skip to next step.
 ```
 
 <br>
-####2. Install Ionic Framework, cordova and other npm packages
+#### 2. Install Ionic Framework, cordova and other npm packages
 
 - Run below command to install `cordova` and `ionic` globally using `npm`.
+
 ```
 $ npm install -g cordova ionic
 ```
@@ -53,17 +54,20 @@ $ npm install -g grunt bower yeoman
 ```
 
 - You'll also need [yeoman generator](http://yeoman.io/generators/) for Ionic
+
 ```
 $ npm install -g generator-ionic
 ```
 <br>
-####3. Create and build Ionic project
+#### 3. Create and build Ionic project
 - Create directory named `my-ionic-project` and navigate to it.
+
 ```
 $ cd my-ionic-project && cd $_
 ```
 
 - Now run ionic generator using `yo` cammand
+
 ```
 $ yo ionic
 ```
@@ -96,6 +100,7 @@ It will generate a folder structure for you similar to this
 <br>
 #### 3. Testing Application on browser.
 - Run below command from your project directory to run the web application server
+
 ```
 $ grunt serve
 ```
@@ -106,14 +111,14 @@ $ grunt serve
 
 - if you are connected to local network or wifi, then change `hostname` value in `Gruntfile.js` to `0.0.0.0` and now find out your machine ip using ifconfig. e.g. if it is `192.168.2.4` then you can the app from any device in the same network by pointing their browser to `http://192.168.2.4:9000`
 
-####3. Running on Android Device
+#### 4. Running on Android Device
 
 To run your first ionic application on actual mobile platform like android, follow below steps.
 
 - Add and build cordova platform for Android in project.
+
 ```
 $ cordova platform add android
-
 $ grunt cordova
 ```
 
