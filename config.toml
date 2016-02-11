@@ -43,7 +43,6 @@ canonifyurls = true
     label  = "Categories"
     link   = "categories/"
 
-
 [[params.menu]]
     before = false
     label  = "Archive"
@@ -53,6 +52,11 @@ canonifyurls = true
     before = false
     label  = "Quotes"
     link   = "quotes/"
+
+[[params.menu]]
+    before = false
+    label  = "TIL"
+    link   = "today-i-learned/"
 
 [[params.menu]]
     before = false
