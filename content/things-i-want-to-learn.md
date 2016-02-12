@@ -39,6 +39,10 @@ title = "Things I want to Learn/Read/Watch"
 - [ ] http://ferd.ca/the-zen-of-erlang.html
 
 
+## Elixir/Phoenix
+- [ ] Elixir in Action Blog http://theerlangelist.com/
+- [ ] Elixir Crash course http://elixir-lang.org/crash-course.html
+
 ## Git
 - [ ] http://www.learnenough.com/git-tutorial
 
