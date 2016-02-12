@@ -42,6 +42,7 @@ title = "Things I want to Learn/Read/Watch"
 ## Elixir/Phoenix
 - [ ] Elixir in Action Blog http://theerlangelist.com/
 - [ ] Elixir Crash course http://elixir-lang.org/crash-course.html
+- [ ] http://joearms.github.io/2013/05/31/a-week-with-elixir.html
 
 ## Git
 - [ ] http://www.learnenough.com/git-tutorial
