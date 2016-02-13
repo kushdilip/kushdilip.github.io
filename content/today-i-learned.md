@@ -19,6 +19,9 @@ Here is the list of stuff I discovered myself or found out after exploration ove
 - [Binding style attribute and safestring in Ember](/til/ember/binding-style-attribute-and-safestring/)
 
 
+### Git
+- [Syncing git repo fork with upstream](/til/git/syncing-git-repo-fork-with-upstream/)
+
 ---
 ---
 
