@@ -24,7 +24,7 @@ canonifyurls = true
   location = "Bangalore, IN"
   site_description = "Javascript & Web blog by dilip kushwaha"
   copyright  = "Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice)."
-
+  avatar = "/images/avatar.png"
   date_format = "02 Jan'06"
 
 

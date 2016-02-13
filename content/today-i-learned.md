@@ -23,7 +23,6 @@ Here is the list of stuff I discovered myself or found out after exploration ove
 - [Syncing git repo fork with upstream](/til/git/syncing-git-repo-fork-with-upstream/)
 
 ---
----
 
-## Other lists
-[TIWTL - Things I want to Learn](/things-i-want-to-learn/)
+> ## Other lists
+> [TIWTL - Things I want to Learn](/things-i-want-to-learn/)
