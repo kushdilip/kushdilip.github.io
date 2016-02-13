@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "Dilip Kushwaha"
 
 disqusShortname = "kushdilipblog"
-googleAnalyticss = "UA-47054792-2"
+googleAnalytics = "UA-47054792-2"
 
 paginate = 10
 PaginatePath = 'blog/page'
