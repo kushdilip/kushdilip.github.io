@@ -16,11 +16,11 @@ Here is the list of stuff I discovered myself or found out after exploration ove
 ---
 ### Ember
 - [Ember addon install package old & new](/til/ember/addon-install-package-new-old/)
-
+- [Binding style attribute and safestring in Ember](/til/ember/binding-style-attribute-and-safestring/)
 
 
 ---
 ---
 
 ## Other lists
-[TIWTT - Things I want to Learn](/things-i-want-to-learn/)
+[TIWTL - Things I want to Learn](/things-i-want-to-learn/)
