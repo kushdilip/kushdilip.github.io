@@ -22,6 +22,9 @@ Here is the list of stuff I discovered myself or found out after exploration ove
 ### Git
 - [Syncing git repo fork with upstream](/til/git/syncing-git-repo-fork-with-upstream/)
 
+### Shell
+- [Recursively rename file folder names](/til/shell/recursively-rename-file-folder-names/)
+
 ---
 
 > ## Other lists
