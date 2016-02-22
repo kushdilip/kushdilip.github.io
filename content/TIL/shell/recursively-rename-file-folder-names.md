@@ -6,7 +6,7 @@ description = ""
 images = []
 menu = ""
 tags = []
-title = "recursively rename file folder names"
+title = "Recursively rename file folder names"
 
 +++
 
