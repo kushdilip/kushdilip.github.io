@@ -42,10 +42,10 @@ canonifyurls = true
     label  = "Categories"
     link   = "categories/"
 
-[[params.menu]]
-    before = false
-    label  = "Archive"
-    link   = "post/"
+#[[params.menu]]
+#    before = false
+#    label  = "Archive"
+#    link   = "post/"
 
 [[params.menu]]
     before = false
