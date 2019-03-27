@@ -1,0 +1,4 @@
+# Redirects from what the browser requests to what we serve
+# See https://www.netlify.com/docs/redirects/#proxying
+
+/resume/* https://kushdilip-resume.netlify.com/resume/:splat 200!
