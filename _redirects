@@ -2,4 +2,4 @@
 # See https://www.netlify.com/docs/redirects/#proxying
 
 /resume/* https://kushdilip-resume.netlify.com/resume/:splat 200!
-/ember-octane-life-log/* https://octane-life-log.netlify.com/ember-octane-life-log/:splat 200!
+/ember-octane-life-log/* https://octane-demo.netlify.com/ember-octane-life-log/:splat 200!
